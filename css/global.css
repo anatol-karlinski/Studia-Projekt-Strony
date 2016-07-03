@@ -1,0 +1,37 @@
+html{
+	background-color: white;
+}
+body{
+	margin: 0;
+}
+
+
+@font-face {
+    font-family: Penelope-Anne;
+    src: url("../fonts/Penelope-Anne.ttf");
+}
+
+@font-face {
+    font-family: Oswald-Regular;
+    src: url("../fonts/Oswald-Regular.otf");
+}
+
+@font-face {
+    font-family: Oswald-Bold;
+    src: url("../fonts/Oswald-Bold.otf");
+}
+
+@font-face {
+    font-family: Oswald-Light;
+    src: url("../fonts/Oswald-Light.otf");
+}
+/*
+@font-face {
+    font-family: Muli-Light;
+    src: url("../fonts/Muli-Light.ttf");
+}
+*/
+@font-face {
+    font-family: Muli-Light;
+    src: url("../fonts/ElegantLux-Mager.otf");
+}

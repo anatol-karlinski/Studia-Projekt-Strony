@@ -1,0 +1,62 @@
+#content{
+	height: 100%;
+	width: 600px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tabela_wypiekow_desktop{
+	margin-top:80px;
+	width: 600px;
+}
+
+#tabela_wypiekow_mobile{
+	display: none;
+}
+
+
+td{
+	border: black solid 0px;
+	width: 300px;
+	height: 300px;
+	vertical-align: top;
+}
+
+.nazwa{
+	font-family: Penelope-Anne;
+	font-size: 32px;
+	margin: 10px;
+	color: #5E5E5E;
+    border-bottom: #ADADAD dotted 2px;
+}
+
+.opis{
+	font-family: Muli-Light;
+	font-size: 16px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.obrazek_prodoktu{
+	padding-left: 20px;
+	margin-left: 0px;
+	margin-top: 10px;
+	padding-right: 20px;
+	margin-right: 0px;
+	width: 270px;
+	height: auto;
+}
+
+.obrazek_prodoktu_mobile{
+	display: none;
+}
+
+.lewa{
+	float: left;
+}
+
+.prawa{
+	float:right;
+}
+

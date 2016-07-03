@@ -1,0 +1,65 @@
+#onas_table{
+	width: 600px;
+	margin-top: 100px;
+	margin-bottom: 200px;
+	border: black solid 0px; 
+}
+
+#ornament{
+	position:relative; 
+	margin-top: 40px;
+	width: 100%;
+
+}
+
+#opis_gora{
+	width: 200px;
+}
+
+#content{
+	height: 100%;
+	width: 600px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mapa{
+	position: relative;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.dotted{
+	border: dotted black 0px;
+}
+
+td{
+	font-family: Muli-Light;
+	border: black solid 0px; 
+	font-size: 16px;
+	vertical-align: top;
+	text-align: justify;
+    text-justify: inter-word;
+    border: 0px solid black;
+}
+
+#mapa_tytol{
+	font-size: 40px;
+	font-family: Penelope-Anne; 
+}
+
+#td_obrazka{
+	top: 0;
+	width: 100px;
+}
+
+#obrazek{
+	margin-top: 5px;
+	margin-right: 3px;
+	width: 290px;
+}
+
+.tekst{
+	font-size: 18px;
+}

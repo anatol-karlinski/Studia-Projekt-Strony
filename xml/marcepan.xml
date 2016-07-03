@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zamowienia naDzien="1" naMiesiac="styczen">
+
+ <zamowienie idZamowienia="36489">
+  <szczegolyZamowienia>
+	<typZamowienie>Detaliczne</typZamowienie>
+	<typRachunku>Rachunek</typRachunku>
+  </szczegolyZamowienia>
+  <daneOdbiorcy>
+	<adres>
+     <wojewodztwo>pomorskie</wojewodztwo>
+	 <miasto>Gdansk</miasto>
+	 <ulica>Grunwaldzka</ulica>
+	 <kodPocztowy>32-312</kodPocztowy>
+	 <numerBudynku>14/2</numerBudynku>
+	</adres>
+	<imie>Lechosława</imie>
+	<nazwisko>Piotrowska</nazwisko>
+	<email>LechosawaPiotrowska@rhyta.com</email>
+	<telefon>707-688-015</telefon>
+  </daneOdbiorcy>
+  <kategorie>
+    <kategoria>
+	 <rodzaj>Jedzenie</rodzaj>
+	 <typ>Torty</typ>
+	</kategoria>
+	<kategoria>
+	  <rodzaj>Napoje</rodzaj>
+	  <typ>Soki</typ>
+	</kategoria>
+   </kategorie>
+   <produkty>
+	<produkt nrProduktu="156">
+	  <nazwa>Adwokat</nazwa>
+	  <ilosc>20</ilosc>
+	  <grafika typ="png">adwokat.png</grafika>
+	</produkt>
+	<produkt nrProduktu="156">
+	  <nazwa>Stracciatella</nazwa>
+	  <ilosc>20</ilosc>
+	  <grafika typ="png">stracciatella.png</grafika>
+	</produkt>
+	<produkt nrProduktu="342">
+	  <nazwa>Jablkowy</nazwa>
+	  <ilosc>40</ilosc>
+	  <grafika typ="png">sJabkowy.jpeg</grafika>
+	</produkt>
+	<produkt nrProduktu="342">
+	  <nazwa>Porzeczkowy</nazwa>
+	  <ilosc>40</ilosc>
+	  <grafika typ="png">sPozeczkowy.jpeg</grafika>
+	</produkt>
+   </produkty>
+   <linkDoStanuZamowienia>
+	<dostawca>allekurier</dostawca>
+	<link typ="html">http://allekurier.pl/index.html</link>
+    </linkDoStanuZamowienia>
+ </zamowienie>
+
+  <zamowienie idZamowienia="19321">
+  <szczegolyZamowienia>
+	<typZamowienie>Hurtowe</typZamowienie>
+	<typRachunku>Faktura</typRachunku>
+  </szczegolyZamowienia>
+  <daneOdbiorcy>
+	<adres>
+     <wojewodztwo>pomorskie</wojewodztwo>
+	 <miasto>Gdansk</miasto>
+	 <ulica>Sowinskiego</ulica>
+	 <kodPocztowy>11-800</kodPocztowy>
+	 <numerBudynku>26/1</numerBudynku>
+	</adres>
+	<imie>Anatol</imie>
+	<nazwisko>Karlinski</nazwisko>
+	<email>ak@gmail.com</email>
+	<telefon>515-515-515</telefon>
+  </daneOdbiorcy>
+  <kategorie>
+    <kategoria>
+	 <rodzaj>Jedzenie</rodzaj>
+	 <typ>Torty</typ>
+	</kategoria>
+	<kategoria>
+	  <rodzaj>Napoje</rodzaj>
+	  <typ>Soki</typ>
+	</kategoria>
+   </kategorie>
+   <produkty>
+	<produkt nrProduktu="156">
+	  <nazwa>Adwokat</nazwa>
+	  <ilosc>20</ilosc>
+	  <grafika typ="png">adwokat.png</grafika>
+	</produkt>
+	<produkt nrProduktu="156">
+	  <nazwa>Stracciatella</nazwa>
+	  <ilosc>20</ilosc>
+	  <grafika typ="png">stracciatella.png</grafika>
+	</produkt>
+	<produkt nrProduktu="342">
+	  <nazwa>Jablkowy</nazwa>
+	  <ilosc>40</ilosc>
+	  <grafika typ="png">sJabkowy.jpeg</grafika>
+	</produkt>
+	<produkt nrProduktu="342">
+	  <nazwa>Porzeczkowy</nazwa>
+	  <ilosc>40</ilosc>
+	  <grafika typ="png">sPozeczkowy.jpeg</grafika>
+	</produkt>
+   </produkty>
+   <linkDoStanuZamowienia>
+	<dostawca>allekurier</dostawca>
+	<link typ="html">http://allekurier.pl/index.html</link>
+    </linkDoStanuZamowienia>
+ </zamowienie>
+
+  <zamowienie idZamowienia="19321">
+  <szczegolyZamowienia>
+	<typZamowienie>Hurtowe</typZamowienie>
+	<typRachunku>Faktura</typRachunku>
+  </szczegolyZamowienia>
+  <daneOdbiorcy>
+	<adres>
+     <wojewodztwo>pomorskie</wojewodztwo>
+	 <miasto>Sopot</miasto>
+	 <ulica>3 maja</ulica>
+	 <kodPocztowy>12-133</kodPocztowy>
+	 <numerBudynku>14/1</numerBudynku>
+	</adres>
+	<imie>Radosława</imie>
+	<nazwisko>Walczak</nazwisko>
+	<email>RadosawaWalczak@rhyta.com</email>
+	<telefon>410-380-535</telefon>
+  </daneOdbiorcy>
+  <kategorie>
+    <kategoria>
+	 <rodzaj>Jedzenie</rodzaj>
+	 <typ>Torty</typ>
+	</kategoria>
+	<kategoria>
+	  <rodzaj>Napoje</rodzaj>
+	  <typ>Soki</typ>
+	</kategoria>
+   </kategorie>
+   <produkty>
+	<produkt nrProduktu="156">
+	  <nazwa>Adwokat</nazwa>
+	  <ilosc>20</ilosc>
+	  <grafika typ="png">adwokat.png</grafika>
+	</produkt>
+	<produkt nrProduktu="156">
+	  <nazwa>Stracciatella</nazwa>
+	  <ilosc>20</ilosc>
+	  <grafika typ="png">stracciatella.png</grafika>
+	</produkt>
+	<produkt nrProduktu="342">
+	  <nazwa>Jablkowy</nazwa>
+	  <ilosc>40</ilosc>
+	  <grafika typ="png">sJabkowy.jpeg</grafika>
+	</produkt>
+	<produkt nrProduktu="342">
+	  <nazwa>Porzeczkowy</nazwa>
+	  <ilosc>40</ilosc>
+	  <grafika typ="png">sPozeczkowy.jpeg</grafika>
+	</produkt>
+   </produkty>
+   <linkDoStanuZamowienia>
+	<dostawca>allekurier</dostawca>
+	<link typ="html">http://allekurier.pl/index.html</link>
+    </linkDoStanuZamowienia>
+ </zamowienie>
+
+</zamowienia>

@@ -1,0 +1,41 @@
+#content{
+	height: 1200px;
+	width: 400px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#table_content{
+	margin-top: 30px;
+	width: 90%;
+}
+
+td{
+	border: black solid 0px;
+	vertical-align: top;
+}
+
+table{
+	font-family: Muli-Light;
+	font-size: 17px;
+}
+
+.kategoria{
+	font-family: Penelope-Anne; 
+	font-size: 32px; 
+	height: 70px; 
+	vertical-align: bottom;
+	border: 0;
+	border-bottom: dotted 1px black;
+}
+
+.prawa{
+	text-align: right;
+}
+
+.ikonka{
+	margin-left: 10px;
+	margin-right: 4px;
+	height: 30px;
+}

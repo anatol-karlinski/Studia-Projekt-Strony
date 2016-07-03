@@ -1,0 +1,99 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+	<title>Marcepan - zamow</title>
+    <meta name="description" content="Marcepan - zamow" />
+    <meta charset="UTF-8" />
+    <meta name="author" content="Anatol Karliński">
+
+	<link rel='stylesheet' media='screen and (max-width: 699px)' href='css/Template_mobile.css' />
+	<link rel='stylesheet' media='screen and (min-width: 700px)' href='css/Template_destkop.css' />
+	<link rel='stylesheet' media='screen and (max-width: 699px)' href='css/zamow_mobile.css' />
+	<link rel='stylesheet' media='screen and (min-width: 700px)' href='css/zamow_desktop.css' />
+
+
+	<link rel='stylesheet' href='css/global.css' />
+	<link rel='stylesheet' href='css/no_js.css' />
+	
+	<link rel='stylesheet' href='js/jquerry/jquery-ui.css' />
+
+	<script type="text/JavaScript" src="js/jquerry/jquery.js"></script> 
+	<script type="text/JavaScript" src="js/jquerry/jquery-ui.js"></script> 
+	<script type="text/JavaScript" src="js/main.js"></script> 
+	<script type="text/JavaScript" src="js/zamow.js"></script> 
+
+</head>
+<body>
+	<img id ="logo" src="images/logo2.png" alt="Marcepan"/>
+	<div id="naglowek">
+			<div id ="menu">
+				<div class="menuItem ">
+					<a class="linkMenu" href="produkty.html">PRODUKTY</a>
+				</div>
+				<div class="menuItem">
+					<a class="linkMenu" href="cennik.html">CENNIK</a>
+				</div>
+				<div id="separator_manu"></div>
+				<div class="menuItem">
+					<a class="linkMenu" href="onas.html">O NAS</a>
+				</div>
+				<div class="menuItem ">
+					<a class="linkMenu" href="zamow.html">ZAMÓW</a>
+				</div>
+		</div>
+	</div>	
+	<div id="content">
+	<div style="border: 1px;">
+		<form id="forma" name="myform" method="post" action="http://pg.edu.pl/">
+		<table id="table_formy">
+		<tr><td colspan="4" class="tytol_formfield" style="font-size: 53px; border-bottom: black 1px dotted; width:100%; position:relative;">Twoje zamówienie</td></tr>
+			<tr><td colspan="4" class="tytol_formfield">Dane osobowe:</td></tr>
+			<tr>
+				<td>Imię:</td>
+				<td><input type="text" id="imie_input" name="Imie"  /></td>
+				<td>Nazwisko:</td>
+				<td><input type="text" id="nazwisko_input" name="Nazwisko" /></td>
+			</tr>
+			<tr><td colspan="4" class="tytol_formfield">Adress:</td></tr>
+			<tr>
+				<td>Miasto:</td>
+				<td><input type="text" id="miasto_input" name="Miasto" /></td>
+				<td>Ulica:</td>
+				<td><input type="text" id="ulica_input" name="Ulica" /></td>
+			</tr>
+			<tr>
+				<td>Kod pocztowy:</td>
+				<td><input type="text" id="kod_input" name="Kod pocztowy" size="7" /></td>
+				<td>Numer budynku:</td>
+				<td><input type="text" id="budynek_input" name="Numer budynku" size="6" /></td>
+			</tr>
+			<tr><td colspan="4" class="tytol_formfield">Dane kontaktowe:</td></tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="text" id="email_input" name="email" /></td>
+				<td>Nr. telefonu:</td>
+				<td><input type="text" id="telefon_input" name="Numer telefonu" size="9" /></td>
+			</tr>
+
+			<tr><td colspan="2"  class="tytol_formfield ">Szczególy zamówienia:</td></tr>
+			<tr>
+				<td colspan="4" ><textarea id="szczegoly_input" name="Szczegoly zamowienia" cols="20" rows="5" style="resize: none; width:100%;"></textarea></td>
+			</tr>
+		<tr>
+		<td colspan="4" ><div id="button_holder"><input type="submit" name="Submit" value="Wyślij"></div></td>
+		</tr>
+		</table>
+		</form>
+	</div>
+	</div>
+
+	<div id="stopka">
+		<img class="socialMediaLink" src="images/icons/facebook.png" alt="Facebook"/>
+		<img class="socialMediaLink" src="images/icons/twitter.png" alt="Twitter"/>
+		<img class="socialMediaLink" src="images/icons/instagram.png" alt="Instagram"/>
+		<img class="socialMediaLink" src="images/icons/email.png" alt="E-Mail"/>
+		<div id="trescStopy">@ Anatol Karlinski 2014 All Right Reserved</div>
+	</div>
+
+</body>
+</html>

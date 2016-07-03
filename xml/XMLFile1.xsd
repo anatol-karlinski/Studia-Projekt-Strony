@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="zamowienia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="zamowienie">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="szczegolyZamowienia">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="typZamowienie" type="xs:string" />
+                    <xs:element name="typRachunku" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="daneOdbiorcy">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="adres">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="wojewodztwo" type="xs:string" />
+                          <xs:element name="miasto" type="xs:string" />
+                          <xs:element name="ulica" type="xs:string" />
+                          <xs:element name="kodPocztowy" type="xs:string" />
+                          <xs:element name="numerBudynku" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="imie" type="xs:string" />
+                    <xs:element name="nazwisko" type="xs:string" />
+                    <xs:element name="email" type="xs:string" />
+                    <xs:element name="telefon" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="kategorie">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="kategoria">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="rodzaj" type="xs:string" />
+                          <xs:element name="typ" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="produkty">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="produkt">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="nazwa" type="xs:string" />
+                          <xs:element name="ilosc" type="xs:unsignedByte" />
+                          <xs:element name="grafika">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="typ" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="nrProduktu" type="xs:unsignedShort" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="linkDoStanuZamowienia">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="dostawca" type="xs:string" />
+                    <xs:element name="link">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="typ" type="xs:string" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="idZamowienia" type="xs:unsignedShort" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="naDzien" type="xs:unsignedByte" use="required" />
+      <xs:attribute name="naMiesiac" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

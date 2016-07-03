@@ -1,0 +1,41 @@
+#forma{
+	margin-top: 70px;
+	border: black 0px dotted;
+	border-radius: 7px 7px 7px 7px;
+	width: 700px;
+	height: 570px;
+}
+
+#content{
+	height: 800px;
+	border: 1px;
+	width: 700px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tytol_formfield{
+	font-family: Penelope-Anne; 
+	font-size: 28px; 
+	height: 60px; 
+	vertical-align: bottom;
+}
+
+#table_formy{
+	width: 235px;
+	border: 0;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form{
+	font-family: Muli-Light;
+}
+
+#button_holder{
+	text-align: center;
+}
+
+

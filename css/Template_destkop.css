@@ -1,0 +1,105 @@
+a:link { color: white; text-decoration: none}
+a:visited { color: white; text-decoration: none}
+a:hover { color: white; text-decoration: underline}
+a:active { color: white; text-decoration: none}
+
+#naglowek{
+	height: 55px;
+	width: 800px;
+	position: relative;
+	background-color: white;
+	margin-top: 110px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	z-index: 1;
+}
+
+#table_formy{
+	width: 1200px;
+}
+
+#logo{
+	z-index: 2;
+	background-color: transparent;
+    position:absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	margin-top: -120px;	
+	width: 300px;
+	height: auto;
+}
+
+#menu{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #1c9ada;
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+	border-bottom-left-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	text-align: center;
+}
+
+.menuItem{
+	font-family: Penelope-Anne;
+	height: 100%;
+	position: relative;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 0px;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+
+}
+
+.linkMenu{
+	line-height: 60px;
+}
+
+#separator_manu{
+	color: white;
+	position: relative;
+	width: 300px;
+	display: inline-block;
+}
+
+#content{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	width: 100%;
+	background-color: white;
+}
+
+#stopka{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background-color: #89a0be;
+	font-family: Penelope-Anne;
+	color:white;
+	font-size: 18px;
+	text-align: center;
+}
+
+.socialMediaLink{
+
+	position: relative;
+	margin-right: auto;
+	margin-right: auto;
+	margin-top: 14px;
+	margin-bottom: 2px;	
+	width: 34px;
+	height: 34px;
+}
